@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="icon" href="images/calculadora.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Calculadora basica</h1>
+
+    <!--Calculadora-->
+    <div id="CajaC">
+      <div class="Resul-barra">
+        <p id="Resul"></p>
+      </div>
+      <input type="button" class="operador_out" value="C" id="BorrarT" onclick="Borrar()" />
+
+      <div class="Botones">
+        <div>
+          <button type="button" class="numero"  onclick="calculadora('7')">7</button>
+          <button type="button" class="numero"  onclick="calculadora('8')">8</button>
+          <button type="button" class="numero"  onclick="calculadora('9')">9</button>
+          <button type="button" id="operador"  onclick="calculadora('/')">/</button>
+        </div>
+        <div>
+          <button type="button" class="numero"  onclick="calculadora('4')">4</button>
+          <button type="button" class="numero"  onclick="calculadora('5')">5</button>
+          <button type="button" class="numero"  onclick="calculadora('6')">6</button>
+          <button type="button" id="operador"  onclick="calculadora('*')">x</button>
+        </div>
+        <div>
+          <button type="button" class="numero"  onclick="calculadora('1')">1</button>
+          <button type="button" class="numero"  onclick="calculadora('2')">2</button>
+          <button type="button" class="numero"  onclick="calculadora('3')">3</button>
+          <button type="button" id="operador"  onclick="calculadora('-')">-</button>
+        </div>
+        <div>
+          <button type="button" id="resul"  onclick="resultado()">=</button>
+          <button type="button" class="numero"  onclick="calculadora('0')">0</button>
+          <button type="button" id="operador"  onclick="calculadora('.')">.</button>
+          <button type="button" id="operador"  onclick="calculadora('+')">+</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="funciones.js"></script>
+  </body>
+</html>

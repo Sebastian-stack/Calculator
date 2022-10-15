@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #BFBFBF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CajaC{
+    margin-top: 20px;
+    padding-top: 30px;
+    background-color: #38312F;
+    width: 260px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 5px 5px;
+    align-items: center;
+}
+
+.Resul-barra{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+#Resul{
+    color: #BFBFBF;
+    font-size: 30px;
+    
+}
+.operador_out{
+    height: 47px;
+    width: 252px;
+    margin-bottom: 5px;
+    background-color: #B8A09A;
+    border-color: #38312F;
+}
+
+.Botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;    
+}
+
+.Botones button{
+    width: 60px;
+    height: 60px;  
+    background-color: #786865;  
+    color: black;
+    font-size: 20px;
+    border-color: #38312F;
+}
+
+
+
+#operador{
+    background-color: #B8A09A;
+}
+
+#resul{
+    background-color: #F8D7D0;
+    color: black;
+    border-color: #38312F;
+}
+
